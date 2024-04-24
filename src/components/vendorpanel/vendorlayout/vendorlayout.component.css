@@ -1,0 +1,13 @@
+.dashboard_layout{
+width: calc(100%-230px);
+margin-left: 230px;
+/* overflow-y: scroll; */
+}
+
+@media only screen and (max-width: 992px) {
+    .dashboard_layout{
+        width: calc(100%);
+        margin-left: 0px;
+        
+        }
+  }

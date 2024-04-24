@@ -1,0 +1,157 @@
+.login{
+    /* background-color: #F5F4F3; */
+    background-color: #ffffff;
+    /* background-color: #67C6E3; */
+
+    height: 100vh ;
+}
+
+.login-form{
+    width: 350px;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.signin_btn .btn-primary{
+    width: 100% !important;
+    /* --bs-btn-color:#fff;
+    --bs-btn-bg:#105ef1; */
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+
+}
+.input-tags {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 6%;
+    border-radius: 5px;
+    /* border: 1px solid #999999; */
+    border: 2px solid #ffffff;
+    background-color: #F5F4F3;
+    outline: none; 
+
+  }
+  .input-tags:focus {
+    border: 2px solid #0d6efd; 
+    outline: none; 
+    background-color:#ffffff;
+  }
+  .newinput-tags {
+    width: 100% !important;
+    padding: 0.6rem;
+    margin-top: 6%;
+    border-radius: 5px;
+    /* border: 1px solid #999999; */
+    border: 2px solid #ffffff;
+    background-color: #F5F4F3;
+    outline: none; 
+
+  }
+  .newinput-tags:focus {
+    border: 2px solid #0d6efd; 
+    outline: none; 
+    background-color:#ffffff;
+  }
+  .forget-password{
+    color: #1d276e;
+    cursor: pointer;
+  display: inline-block;
+    border-bottom: 1px  solid #ffffff;
+   }
+.forget-password:hover{
+  display: inline-block;
+ border-bottom: 1px solid #1d276e;
+}
+
+  .google-logo-div{
+     background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .google-logo{
+    width: 30px;
+    height: 30px;
+  }
+  .google-logo-button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  .logo-reg{
+    width: 100px;
+    height: auto;
+  }
+  /* new classes  */
+  
+.input_div{
+  width: 500px;
+  
+  }
+  .label_style{
+      font-size: 25px;
+  }
+.inp_style{
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 3%;
+  border-radius: 10px;
+  border: 1px solid #999999;
+  /* border: 2px solid #ffffff; */
+  background-color: transparent;
+  outline: none; 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.inp_style::placeholder {
+  font-size: 12px; /* Adjust the font size as needed */
+  font-weight: 700;
+}
+.login_button{
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 0.3rem;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 800;
+color: rgba(0, 0, 0, 0.3);
+background-color:#e4e4e4 ;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.login_button:hover{
+  color: #ffffff;
+  background-color: #1d2671;
+}
+.span_border{
+  color: #e4e4e4 ;
+  width: 100%;
+  border-bottom: 1px solid #999999;
+}
+.google_button{
+  border: none;
+  outline: none;
+  /* border-radius: 15px; */
+  /* padding: 0.3rem; */
+  /* width: 100%; */
+  font-size: 18px;
+  font-weight: 700;
+/* color: rgba(0, 0, 0, 0.3); */
+background-color:#ffffff;
+}
+.google_div{
+  border-radius: 15px;
+  padding: 0.6rem;
+  width: 100%;
+background-color:#ffffff;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.google-logo{
+  width: 30px;
+  height: 30px;
+}
+.register_button{
+  color: #1d276e;
+  cursor: pointer;
+display: inline-block;
+  border-bottom: 1px  solid #1d276e;
+}

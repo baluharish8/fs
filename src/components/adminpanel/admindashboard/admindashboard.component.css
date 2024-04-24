@@ -1,0 +1,266 @@
+
+
+.dashboard {
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    background-color: transparent;
+    
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+.dashboard h2{
+    font-size: 16px;
+    color: #666666;
+}
+.dashboard h4{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.dashboard h5{
+    font-size: 24px;
+    color: #ffffff;
+}
+.dashboard_icon_size{
+    font-size: 45px;
+
+}
+/* style for  single boxe start  */
+.project_box{
+    background-color: #E91E63 ;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.icon_div{
+    padding: 0px !important;
+    padding-top: 1rem !important;
+    padding-left: 1rem !important;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.2) ;
+}
+
+.project_content{
+    background: linear-gradient(to left,#E91E63 50%, rgba(0, 0, 0, 0.1) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    width: 100%;
+}
+
+.project_box:hover .project_content{
+    background-position: left;
+
+}
+/* style for  single boxe end  */
+.ledgertype_box{
+    background-color: #00BCD4 ;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.ledgertype_content{
+    background: linear-gradient(to left,#00BCD4 50%, rgba(0, 0, 0, 0.1) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    width: 100%;
+}
+.ledgertype_box:hover .ledgertype_content{
+    background-position: left;
+}
+/* ledger group  */
+.ledgergroup_box{
+    background-color:#9C27B0;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.ledgergroup_content{
+    background: linear-gradient(to left,#9C27B0 50%, rgba(0, 0, 0, 0.1) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    width: 100%;
+}
+.ledgergroup_box:hover .ledgergroup_content{
+    background-position: left;
+}
+
+/* ledger  */
+.ledger_box{
+    background-color:#8BC34A;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.ledger_content{
+    background: linear-gradient(to left,#8BC34A 50%, rgba(0, 0, 0, 0.1) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    width: 100%;
+}
+.ledger_box:hover .ledger_content{
+    background-position: left;
+}
+/* Bank or Cash  */
+
+.bankcash_box{
+    background-color:#607D8B;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.bankcash_content{
+    background: linear-gradient(to left,#607D8B 50%, rgba(0, 0, 0, 0.1) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    width: 100%;
+}
+.bankcash_box:hover .bankcash_content{
+    background-position: left;
+}
+
+/* User  */
+.user_box{
+    background-color:#FF9800;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.user_content{
+    background: linear-gradient(to left,#FF9800 50%, rgba(0, 0, 0, 0.1) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    width: 100%;
+}
+.user_box:hover .user_content{
+    background-position: left;
+}
+
+/* Role Manager  */
+.rolemanager_box{
+    background-color:#F44336;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.rolemanager_content{
+    background: linear-gradient(to left,#F44336 50%, rgba(0, 0, 0, 0.1) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    width: 100%;
+}
+.rolemanager_box:hover .rolemanager_content{
+    background-position: left;
+}
+
+/* Report  */
+.report_box{
+    background-color:#795548;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.report_content{
+    background: linear-gradient(to left,#795548 50%, rgba(0, 0, 0, 0.1) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    width: 100%;
+}
+.report_box:hover .report_content{
+    background-position: left;
+}
+
+
+.quick_access{
+    background: #fff;
+    /* min-height: 50px; */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    /* position: relative; */
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+.quick_header{
+    color: #111111;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 20px;
+    /* position: relative; */
+    border-bottom: 1px solid rgba(204, 204, 204, 0.35);
+}
+.quick_content button{
+border: none;
+outline: none;
+font-size: 13px;
+padding-top: 0.3rem;
+padding-bottom: 0.3rem;
+padding-left: 1.6rem;
+padding-right: 1.6rem;
+color: #ffffff;
+border-radius: 2px;
+margin-right: 0.3rem;
+margin-bottom: 0.3rem;
+margin-top: 0.3rem;
+margin-left: 0.3rem;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn_project{
+    background-color: #E91E63;
+}
+.btn_product{
+    background-color: #4CAF50 ;
+}
+.btn_sell{
+    background-color: #FFC107 ;
+}
+.btn_prequisition{
+    background-color: #000000;
+}
+.btn_porder{
+    background-color: #00BCD4;
+}
+.btn_vendor{
+    background-color: #4CAF50;
+}
+.btn_employee{
+    background-color: #FFC107;
+}
+.btn_customer{
+    background-color: #000000;
+}
+.btn_ledger{
+    background-color: #4CAF50 ;
+}
+.btn_tbalance{
+    background-color: #4CAF50;
+}
+.btn_crevenue{
+    background-color: #FF9800;
+}
+.btn_placcount{
+    background-color: #673AB7;
+}
+.btn_earnings{
+    background-color: #2196F3;
+}
+.btn_fas{
+    background-color: #8BC34A;
+}
+.btn_bsheet{
+    background-color: #03A9F4;
+}
+.btn_cf{
+    background-color: #00BCD4;
+}
+.btn_rp{
+    background-color: #009688;
+}
+.btn_lt{
+    background-color: #8BC34A;
+}
+.btn_lg{
+    background-color: #FF9800 ;
+}
+.btn_dv{
+    background-color: #FF9800 ;
+}
+.btn_creditvoucher{
+    background-color: #795548;
+}
+.btn_jv{
+    background-color: #FF5722;
+}
+.btn_contravoucher{
+    background-color: #FF9800;
+}
+.img-fluid{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

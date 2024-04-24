@@ -1,0 +1,97 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 230px;
+    background-color:#ffffff;
+    color: black;
+  padding-top: 3rem;
+
+    /* padding: 20px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media only screen and (max-width: 992px) {
+  .sidebar_none{
+    display: none;
+  }
+}
+.sidebar1{
+  padding-top: 3rem;
+    height: 80vh;
+    /* THIS IS FOR SCROLLING EFFECT */
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+
+}
+
+/* THESE ALL ARE SCROLLBAR STYLES */
+/* Set the width of the scrollbar */
+.sidebar1::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  /* .sidebar1::-webkit-scrollbar-track {
+    background: #f1f1f1; Color of the scrollbar track
+  } */
+  
+  /* Handle */
+  .sidebar1::-webkit-scrollbar-thumb {
+    background: #040b14; /* Color of the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  .sidebar1:hover::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the scrollbar handle on hover */
+  }
+  
+  /* Hide the scrollbar by default */
+  /* .sidebar1::-webkit-scrollbar {
+width: 0;    
+  } */
+  
+  /* Show the scrollbar when hovering over the sidebar THIS IS SCROLLBAR LEAVING SPACE */
+  .sidebar1:hover::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+
+
+.image{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+}
+
+.list-menu{
+    list-style-type: none;
+  display: inline-block;
+
+}
+.list{
+cursor: pointer;
+font-size: 16px;
+padding: 0.7rem;
+padding-left: 1.3rem;
+padding-right: 1.3rem;
+
+}
+.list-icon{
+font-size: 19px;
+}
+.list-icon-name{
+padding-left: 0.3rem;
+  text-align: end;
+}
+.list-menu li{
+  color: #040b14;
+  font-weight: 600;
+}
+.list-menu li:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* .list-icon-name{
+  
+} */

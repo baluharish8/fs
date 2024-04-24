@@ -1,0 +1,16 @@
+.otpverify_button{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 0.3rem;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 800;
+  color: rgba(0, 0, 0, 0.3);
+  background-color:#e4e4e4 ;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .otpverify_button:hover{
+    color: #ffffff;
+    background-color: #1d2671;
+  }
